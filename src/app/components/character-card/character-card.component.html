@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="character">
+    <img src="{{ character.pictures[0].url }}" alt="character">
+  </div>
+  <div class="status">
+    <p>Name: {{ character.name }}</p>
+    <span>Age: {{ character.age }}</span>
+    <span>Job: {{ character.job }}</span>
+    <span>Origin: {{ character.origin }}</span>
+    <span>Race: {{ character.race }}</span>
+  </div>
+  <div class="info">
+    {{ character.description }}
+  </div>
+  <hr class="line">
+</div>

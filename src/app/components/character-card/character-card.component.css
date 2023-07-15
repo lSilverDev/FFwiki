@@ -1,0 +1,33 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.character{
+  margin: 32px;
+}
+
+.status{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.line{
+  color: white;
+  width: 50%;
+  margin-top: 32px;
+}

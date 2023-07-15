@@ -1,0 +1,18 @@
+.container-characterList{
+  background-color: #1d1d1d;
+  width: 80vw;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.container-characterList::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.container-characterList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.container-characterList::-webkit-scrollbar-thumb {
+  background: transparent;
+}
