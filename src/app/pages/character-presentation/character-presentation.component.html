@@ -1,3 +1,6 @@
 <div class="container-characterList">
-  <app-character-card *ngFor="let character of characters" [character]="character"></app-character-card>
+  <app-character-card *ngFor="let character of characters.slice(0, showing)" [character]="character"></app-character-card>
+  <div class="btn-container">
+    <button class="btn" (click)="showMore()">Show More</button>
+  </div>
 </div>

@@ -8,7 +8,8 @@ import { CharactersService } from 'src/app/services/characters.service';
   styleUrls: ['./character-presentation.component.css']
 })
 export class CharacterPresentationComponent implements OnInit{
-
+  showing: number = 6;
+  moreCharacters: boolean = true;
   characters!: Character[];
 
   constructor(private service: CharactersService){}
@@ -17,5 +18,9 @@ export class CharacterPresentationComponent implements OnInit{
     this.service.getCharacters().subscribe((character) => {
       this.characters = character;
     })
+  }
+
+  showMore(){
+    this.showing = this.showing + 6;
   }
 }

@@ -16,3 +16,16 @@
 .container-characterList::-webkit-scrollbar-thumb {
   background: transparent;
 }
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.btn{
+  color: white;
+  background-color: #747474;
+  padding: 6px;
+  border-radius: 10px;
+}
