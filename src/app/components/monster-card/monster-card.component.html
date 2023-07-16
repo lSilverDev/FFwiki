@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="monster">
+    <img src="{{ monster.picture.length > 0 ? monster.picture : '' }}" alt="{{ monster.name }}">
+  </div>
+  <div class="status">
+    <p>Name: {{ monster.name }}</p>
+    <span>Hit Points: {{ monster.hitPoints }}</span>
+    <span>Mana Points: {{ monster.manaPoints }}</span>
+    <span>Attack: {{ monster.attack }}</span>
+    <span>Defense: {{ monster.defense }}</span>
+  </div>
+  <div class="info">
+    {{ monster.description }}
+  </div>
+  <hr class="line">
+</div>

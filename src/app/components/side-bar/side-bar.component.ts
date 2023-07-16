@@ -11,6 +11,10 @@ export class SideBarComponent {
   constructor(private router: Router){}
 
   CharacterScreen(){
-    this.router.navigate(['']);
+    this.router.navigate(['character']);
+  }
+
+  ItenScreen(){
+    this.router.navigate(['items']);
   }
 }

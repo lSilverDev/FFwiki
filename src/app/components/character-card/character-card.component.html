@@ -1,6 +1,6 @@
 <div class="card">
   <div class="character">
-    <img src="{{ character.pictures[0].url }}" alt="character">
+    <img src="{{ character.pictures.length > 0 ? character.pictures[0].url : '' }}" alt="{{ character.name }}">
   </div>
   <div class="status">
     <p>Name: {{ character.name }}</p>

@@ -1,0 +1,6 @@
+<div class="container-monsterList">
+  <app-monster-card *ngFor="let monster of monsters.slice(0, showing)" [monster]="monster"></app-monster-card>
+  <div class="btn-container">
+    <button class="btn" (click)="showMore()">Show More</button>
+  </div>
+</div>

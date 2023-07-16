@@ -1,0 +1,31 @@
+.container-monsterList{
+  background-color: #1d1d1d;
+  width: 80vw;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.container-monsterList::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.container-monsterList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.container-monsterList::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.btn{
+  color: white;
+  background-color: #747474;
+  padding: 6px;
+  border-radius: 10px;
+}
