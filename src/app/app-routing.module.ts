@@ -9,7 +9,7 @@ const routes: Routes = [
     component: CharacterPresentationComponent
   },
   {
-    path: 'items',
+    path: 'monters',
     component: MonsterPresentationComponent
   }
 ];

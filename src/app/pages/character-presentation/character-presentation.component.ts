@@ -22,5 +22,9 @@ export class CharacterPresentationComponent implements OnInit{
 
   showMore(){
     this.showing = this.showing + 6;
+
+    if(this.showing >= this.characters.length){
+      this.moreCharacters = false;
+    }
   }
 }

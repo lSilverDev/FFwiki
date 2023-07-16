@@ -9,7 +9,7 @@ import { CharactersService } from 'src/app/services/characters.service';
 })
 export class MonsterPresentationComponent {
     showing: number = 6;
-    moreCharacters: boolean = true;
+    moreMonsters: boolean = true;
     monsters!: Monsters[];
 
     constructor(private service: CharactersService){}
@@ -22,5 +22,9 @@ export class MonsterPresentationComponent {
 
     showMore(){
       this.showing = this.showing + 6;
+
+      if(this.showing >= this.monsters.length){
+        this.moreMonsters = false;
+      }
     }
 }

@@ -15,6 +15,6 @@ export class SideBarComponent {
   }
 
   ItenScreen(){
-    this.router.navigate(['items']);
+    this.router.navigate(['monters']);
   }
 }
