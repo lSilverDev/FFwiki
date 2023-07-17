@@ -1,31 +1,34 @@
-# FFwiki
+# FFwiki - Angular Final Fantasy Project
+This is an Angular project that utilizes a Final Fantasy API to display information about characters and monsters.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+## Prerequisites
+Make sure you have the following tools installed in your development environment:
 
-## Development server
+ - Node.js
+ - Angular CLI
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
+1. Clone this repository to your local machine:
+git clone https://github.com/your-username/project-name.git
 
-## Code scaffolding
+2. Navigate to the project directory:
+cd FFWIKI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Install the project dependencies:
+npm install
 
-## Build
+## API Configuration
+Visit the [Moogle API](https://www.moogleapi.com/) website.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Running the Project
+1. In the project directory, run the following command: 
+ng serve
 
-## Running unit tests
+2. Open your browser and access http://localhost:4200/.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Acknowledgements
+I would like to thank [Storyset](https://storyset.com/illustration/oops-404-error-with-a-broken-robot/cuate/animate) for providing the "Oops 404 Error with a Broken Robot" animation.
 
 
-https://www.moogleapi.com/
-https://storyset.com/illustration/oops-404-error-with-a-broken-robot/cuate/animate
+
+
