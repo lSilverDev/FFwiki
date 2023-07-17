@@ -8,3 +8,8 @@
   width: 20vw;
   height: 100vh;
 }
+
+.sideOption{
+  font-size: 26px;
+  cursor: pointer;
+}

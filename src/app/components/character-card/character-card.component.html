@@ -3,11 +3,11 @@
     <img src="{{ character.pictures.length > 0 ? character.pictures[0].url : '' }}" alt="{{ character.name }}">
   </div>
   <div class="status">
-    <p>Name: {{ character.name }}</p>
-    <span>Age: {{ character.age }}</span>
-    <span>Job: {{ character.job }}</span>
-    <span>Origin: {{ character.origin }}</span>
-    <span>Race: {{ character.race }}</span>
+    <span><b>Name:</b> {{ character.name }}</span>
+    <span><b>Age:</b> {{ character.age }}</span>
+    <span><b>Job:</b> {{ character.job }}</span>
+    <span><b>Origin:</b> {{ character.origin }}</span>
+    <span><b>Race:</b> {{ character.race }}</span>
   </div>
   <div class="info">
     {{ character.description }}
