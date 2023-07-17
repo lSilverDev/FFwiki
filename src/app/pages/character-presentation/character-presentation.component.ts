@@ -11,13 +11,20 @@ export class CharacterPresentationComponent implements OnInit{
   showing: number = 6;
   moreCharacters: boolean = true;
   characters!: Character[];
+  isLoading!: boolean;
 
   constructor(private service: CharactersService){}
 
   ngOnInit(): void {
+    this.isLoading = true;
+
     this.service.getCharacters().subscribe((character) => {
       this.characters = character;
     })
+
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 1000);
   }
 
   showMore(){

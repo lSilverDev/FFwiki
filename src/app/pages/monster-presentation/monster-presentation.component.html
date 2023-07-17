@@ -1,6 +1,9 @@
-<div class="container-monsterList">
+<div class="container-monsterList" *ngIf="!isLoading, else loading">
   <app-monster-card *ngFor="let monster of monsters.slice(0, showing)" [monster]="monster"></app-monster-card>
   <div class="btn-container">
     <button class="btn" *ngIf="moreMonsters" (click)="showMore()">Show More</button>
   </div>
 </div>
+<ng-template #loading>
+  <app-loading></app-loading>
+</ng-template>

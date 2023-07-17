@@ -1,0 +1,11 @@
+.container-notFound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  overflow: auto;
+}

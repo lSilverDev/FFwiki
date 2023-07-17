@@ -11,13 +11,20 @@ export class MonsterPresentationComponent {
     showing: number = 6;
     moreMonsters: boolean = true;
     monsters!: Monsters[];
+    isLoading!: boolean;
 
     constructor(private service: CharactersService){}
 
     ngOnInit(): void {
+      this.isLoading = true;
+
       this.service.getMonsters().subscribe((monster) => {
         this.monsters = monster;
       })
+
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 1000);
     }
 
     showMore(){
